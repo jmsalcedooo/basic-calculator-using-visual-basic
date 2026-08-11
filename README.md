@@ -12,7 +12,10 @@ A creative desktop application built using **VB.NET**, featuring a unique Minecr
 ---
 
 ## 🚀 Download & Run
-If you want to test out the compiled application directly without opening the source code project, you can run the executable here:
 
-```text
-bin/Debug/PROGLLAB Assignment #1 by Salcedo, James A.exe
+Want to test out the application right away without opening the source code? 
+
+👉 **[Click here to download the latest release (.exe)](https://drive.google.com/file/d/1R9in-HZxyNnD4fYz37A0GopG0OGWoNyg/view?usp=drive_link)**
+
+1. Download the `.exe` file.
+2. Run the `.exe` file to launch the app!
