@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7B09BF24-E700-482D-9426-9C395CCF3EBB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>PROGLLAB_Assignment_1_.My.MyApplication</StartupObject>
+    <RootNamespace>PROGLLAB_Assignment_1_</RootNamespace>
+    <AssemblyName>PROGLLAB Assignment #1 by Salcedo, James A</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\PC\Desktop\PROGLLEC ACT #1 - Salcedo, James A\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PROGLLAB Assignment #1 by Salcedo, James A.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>PROGLLAB Assignment #1 by Salcedo, James A.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\ICON.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.19.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Credits.Designer.vb">
+      <DependentUpon>Credits.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Credits.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculator.Designer.vb">
+      <DependentUpon>Calculator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Calculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn.Designer.vb">
+      <DependentUpon>LogIn.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="NewAccount.Designer.vb">
+      <DependentUpon>NewAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Credits.resx">
+      <DependentUpon>Credits.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calculator.resx">
+      <DependentUpon>Calculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewAccount.resx">
+      <DependentUpon>NewAccount.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\The_Basics_of_Calculating_Payroll-cmprsd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\pngwing.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Employee Text.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Payroll Management System.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\All Icons\1 - Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\All Icons\2 - Attendance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\All Icons\3 - Payroll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\All Icons\4 - Employee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\All Icons\5 - Department.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\All Icons\6 - Position.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\All Icons\7 - Allowance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\All Icons\8 - Deduction.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\All Icons\9 - Location.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\All Icons\10 - Log Out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Home Background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\darken.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="My Project\925014.ico" />
+    <None Include="Resources\button_sfx.wav" />
+    <None Include="Resources\Credits.png" />
+    <None Include="Resources\bookwithquill.png" />
+    <None Include="Resources\bookandquill.png" />
+    <None Include="Resources\book&amp;quill.png" />
+    <None Include="Resources\Screw.png" />
+    <None Include="Resources\CalculatorTitle.png" />
+    <None Include="Resources\AltTitle.png" />
+    <None Include="Resources\table.jpg" />
+    <None Include="Resources\door.jpg" />
+    <None Include="Resources\CalcuBG.png" />
+    <None Include="Resources\white cross.png" />
+    <None Include="Resources\cross.png" />
+    <None Include="Resources\Red Cross.png" />
+    <None Include="Resources\Login_BG.png" />
+    <None Include="Resources\ICON.ico" />
+    <None Include="Resources\Login_Unclicked.png" />
+    <None Include="Resources\Login_Hover.png" />
+    <None Include="Resources\CreateAccount_Unclicked.png" />
+    <None Include="Resources\CreateAccount_Hover.png" />
+    <None Include="Resources\CALCULATOR-4-14-2024.png" />
+    <None Include="My Project\All Wallpapers\8 Users.png" />
+    <None Include="My Project\All Wallpapers\0 Home.png" />
+    <None Include="My Project\Title.png" />
+    <None Include="My Project\All Wallpapers\2 Payroll.png" />
+    <None Include="My Project\All Wallpapers\1 Attendance.jpg" />
+    <None Include="My Project\wp11392874.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
