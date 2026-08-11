@@ -1,0 +1,111 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PROGLLAB Assignment #1 by Salcedo, James A
+</name>
+</assembly>
+<members>
+<member name="T:PROGLLAB_Assignment_1_.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:PROGLLAB_Assignment_1_.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:PROGLLAB_Assignment_1_.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:PROGLLAB_Assignment_1_.My.Resources.Resources.AltTitle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROGLLAB_Assignment_1_.My.Resources.Resources.bookwithquill">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROGLLAB_Assignment_1_.My.Resources.Resources.button_sfx">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:PROGLLAB_Assignment_1_.My.Resources.Resources.CalcuBG">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROGLLAB_Assignment_1_.My.Resources.Resources.CALCULATOR_4_14_2024">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROGLLAB_Assignment_1_.My.Resources.Resources.CalculatorTitle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROGLLAB_Assignment_1_.My.Resources.Resources.CreateAccount_Hover">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROGLLAB_Assignment_1_.My.Resources.Resources.CreateAccount_Unclicked">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROGLLAB_Assignment_1_.My.Resources.Resources.Credits">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROGLLAB_Assignment_1_.My.Resources.Resources.door">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROGLLAB_Assignment_1_.My.Resources.Resources.ICON">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:PROGLLAB_Assignment_1_.My.Resources.Resources.Login_BG">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROGLLAB_Assignment_1_.My.Resources.Resources.Login_Hover">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROGLLAB_Assignment_1_.My.Resources.Resources.Login_Unclicked">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROGLLAB_Assignment_1_.My.Resources.Resources.Screw">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROGLLAB_Assignment_1_.My.Resources.Resources.table">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PROGLLAB_Assignment_1_.My.Resources.Resources.white_cross">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
