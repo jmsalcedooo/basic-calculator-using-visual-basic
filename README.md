@@ -40,12 +40,6 @@ Want to test out the application right away without opening the source code?
 
 👉 **[Click here to download the application (.exe)](https://drive.google.com/file/d/1R9in-HZxyNnD4fYz37A0GopG0OGWoNyg/view?usp=drive_link)**
 
-## 🚀 Download & Run
-
-Want to test out the application right away without opening the source code? 
-
-👉 **[Click here to download the application (.exe)](https://drive.google.com/file/d/1R9in-HZxyNnD4fYz37A0GopG0OGWoNyg/view?usp=drive_link)**
-
 1. Click the link above to download the executable file.
 2. Run the `.exe` file on your Windows machine to launch the app! 
    > ⚠️ **Note for Windows Users:** Since this is an independent student project, Windows Defender or your browser might show a **"Windows protected your PC"** or unverified publisher warning. Just click **"More info"** and then **"Run anyway"** to open the app!
